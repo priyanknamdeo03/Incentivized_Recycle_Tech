@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Regitration Page
+    </title>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <style>
+            body{
+                background-image: url('finalimg.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 1260px;
+
+            
+            }
+            h1{
+                text-align: center;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color:black;
+                font-display:inherit;
+                text-decoration: overline;
+                text-transform: capitalize; 
+                font-size: 40px;
+            }
+            div{
+                font-size: 15px;
+                 color:rgb(31, 36, 17);
+                 font-family:Georgia, 'Times New Roman', Times, serif;
+                 font-style: bold;
+                 text-align: center;
+                 border: transparent;
+                
+            }
+            label{
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-align: center;
+                font-style:bold ;
+                font-size:20px;
+            }
+
+        </style>
+    </head>
+    <body>        
+        <br>
+    	<div class="container vh-100">
+            <div class="row justify-content-center h-100">
+                <div class="panel panel-primary w-35 my-auto shadow">
+                    <div class="card-header text-center bg-primary text-white">
+                        <h2>Registeration Form</h2>
+                    </div>
+                    <div class="card-body">
+                        <form action="connect.php" method="post">
+                            <div class="form-group">
+                                <label for="firstname">First Name</label>
+                                <input type="text" id="firstname" class="form-control" name="firstname" />
+                            </div>
+                            <div class="form-group">
+                                <label for="lastname">Last Name</label>
+                                <input type="text" id="lastname" class="form-control" name="lastname" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="form-control" name="email" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="text" id="password" class="form-control" name="password" />
+                            </div>
+                            <div class="form-group">
+                                <label for="number">Phone Number</label>
+                                <input type="text" id="number" class="form-control" name="number" />
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="gender">Gender</label>
+                                <div>
+                                    <label for="male" class="radio-inline"><input type="radio" name="gender" value="m" id="male">Male</label>
+                                    <label for="female" class="radio-inline"><input type="radio" name="gender" value="f" id="female">Female</label>
+                                    <label for="others" class="radio-inline"><input type="radio" name="gender" value="o" id="others">Others</label>
+                                </div>
+                            </div>
+                            
+                            <input type="submit" class="btn btn-primary w-100" value="Register & Submit" name="">
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        </body>
+</html>

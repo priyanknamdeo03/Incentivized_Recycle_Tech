@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <style>
+            body{
+                background-image: url('dustbinnn.jpg');
+                background-repeat: no-repeat;
+                background-size:cover;
+                background-attachment: fixed;
+                background-position-y:center ;
+            }
+            
+            h1 {
+            
+                  text-align: center;
+                  font-size: 40px;
+                  font-display:initial;
+                  font-feature-settings: "abvf";
+                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                  color:rgb(35, 85, 100);
+            }
+            
+             p{
+                font-size: 20px;
+                 color:rgb(5, 6, 7);
+                 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                 font-style: bold;
+                 text-align: center;
+                 border: transparent;
+              
+              }
+        </style>
+
+    </head>
+    <body>
+        <h1>
+            INCENTIVIZED RECYCLE BIN<br>
+            LOGIN
+        </h1>
+    	<div class="container vh-100">
+            <div class="row justify-content-center h-100">
+                <div class="card w-25 my-auto shadow">
+                    <div class="card-header text-center bg-primary text-white">
+                        <h2>Login form</h2>
+                    </div>
+                    <div class="card-body">
+                        <form action="login.php" method="post">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="form-control" name="email" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" class="form-control" name="password" required />
+                            </div>
+                            <input type="submit" class="btn btn-primary w-100" value="Login" name="">
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <p>
+            Don't have an account ? <a href="./registration_page.html" rel = "register">Sign-up
+        </p>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 80vh;
+  }
+  .aboutimg{
+      width: 250px!important;
+      height: 350px!important;
+  }
+#social-media{
+    background:rgb(118, 202, 118) ;
+    padding: 100px 0;
+}
+#social-media p{
+     font-size: 20px;
+     font-weight: 200;
+     margin-top: auto;
+}
+.social-icons{
+    width: 40px;
+    transition: 0.5s;
+
+}
+.social-icons a:hover img{
+     transform: translateY(-10px);
+}
+.footer-box.fa{
+   margin-right: 8px;
+   font-size: 25px;
+   height: 40px;
+   width: 40px;
+   text-align: center;
+   padding-top: 7px;
+   border-radius: 2px;
+}
